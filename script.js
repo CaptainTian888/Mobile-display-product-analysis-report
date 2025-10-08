@@ -1,7 +1,8 @@
 // 1. Language Data Structure
 const translations = {
     'en': {
-        'title': 'Product market analysis report',
+        // UPDATED TITLE KEY
+        'title': 'Product Analysis Report', 
         'header-title': 'Market Feasibility Report: Portable Smart Screen (Move-Connect Pro)',
         'header-subtitle': 'Objective: Assess overseas market feasibility and define strategic positioning.',
         'lang-switch-en': '中文 / EN',
@@ -17,7 +18,7 @@ const translations = {
         's1-retail-data': '**Data:** Global Digital Signage market CAGR of 12.1%. **VP:** Dynamic, repositionable digital customer interface.',
         's1-chart-title': 'Geographic Market Demand Potential (CAGR %)',
         
-        'section2-title-new': '2. Product Usage Scenarios',
+        'section2-title-new': '2. Product Usage Scenarios & Renderings',
         'section2-summary-new': "The Move-Connect Pro's intrinsic portability and all-in-one design unlock a multitude of dynamic use cases.",
         's2-scenario1-title': 'Scenario 2.1: Agile Corporate Team Huddle',
         's2-scenario1-desc': 'In a modern office, a team quickly pulls the Move-Connect Pro into an open space for a spontaneous digital whiteboard session or video conference.',
@@ -44,7 +45,7 @@ const translations = {
         's3-td-economy': 'Economy (43" FHD)',
         's3-td-premium': 'Premium (55" 4K)',
 
-        'section4-title-old': '4. Demand Analysis & Strategy',
+        'section4-title-old': '4. Demand Analysis & Triple P Strategy',
         's4-chart-title': 'Demand Forecast: 5-Year CAGR Projection',
         's4-comp-title': 'Core Differentiation: The "Triple P" Strategy',
         's4-p1-title': 'P1: Portability',
@@ -71,16 +72,14 @@ const translations = {
         's5-brand4': 'Samsung/LG Fixed Displays',
         's5-brand5': 'Others',
 
-        // SECTION 6 TRANSLATIONS
         'section6-title': '6. Amazon Platform Competitor Analysis',
         'section6-summary': 'Direct competitors on the Amazon platform, focusing on portable smart displays.',
         's6-comp1-title': 'Competitor Product 1 (43-inch Portable Screen)',
         's6-comp2-title': 'Competitor Product 2 (27-inch Smart Screen on Wheels)',
         's6-comp3-title': 'Competitor Product 3 (55-inch Wireless Display)',
         's6-comp4-title': 'Competitor Product 4 (43-inch Mobile Smart Monitor)',
-        's6-view-link': 'View Product on Amazon', // New link button text
+        's6-view-link': 'View Product on Amazon', 
 
-        // RENUMBERED SECTIONS
         'section7-title': '7. Product Review & User Sentiment (Synthesis)',
         'section6-summary-old': 'User feedback highlights portability and ease of setup as key strengths, with screen size and connectivity as areas for improvement.',
         's6-positive-title': 'Positive Feedback Synthesis',
@@ -94,7 +93,8 @@ const translations = {
         'footer-text': 'Analysis Generated: October 2025'
     },
     'zh': {
-        'title': '闺蜜机市场分析报告',
+        // UPDATED TITLE KEY (User Request: Product Analysis Report)
+        'title': '产品分析报告', 
         'header-title': '市场可行性报告：带轮便携式智能屏 (Move-Connect Pro)',
         'header-subtitle': '目标：评估海外市场可行性并确定战略定位。',
         'lang-switch-en': 'EN / 中文',
@@ -110,7 +110,7 @@ const translations = {
         's1-retail-data': '**数据：** 全球数字标牌市场复合年增长率为12.1%。**价值主张：** 动态、可重新定位的数字客户界面。',
         's1-chart-title': '地理市场需求潜力（复合年增长率 %）',
 
-        'section2-title-new': '2. 产品使用场景',
+        'section2-title-new': '2. 产品使用场景与渲染图',
         'section2-summary-new': "Move-Connect Pro 内置的便携性和一体化设计，解锁了多种动态使用场景。",
         's2-scenario1-title': '场景 2.1：敏捷企业团队讨论',
         's2-scenario1-desc': '在现代办公室中，团队迅速将Move-Connect Pro从充电站拉到开放协作区，进行即时数字白板会议或视频会议。',
@@ -120,14 +120,15 @@ const translations = {
         's2-scenario3-desc': '医护人员将Move-Connect Pro带入病房，利用其高清摄像头与专家进行远程会诊。',
         's2-scenario4-title': '场景 2.4：互动式零售快闪店',
         's2-scenario4-desc': '在繁华的商场中，品牌利用Move-Connect Pro作为互动产品目录、数字标牌和虚拟助手，吸引顾客。',
+        // OPTIMIZED CHINESE CONTENT
         's2-scenario5-title': '场景 2.5：移动直播工作室',
-        's2-scenario5-desc': '影响者或企业培训师可以将Move-Connect Pro推到任何空间，作为稳定的大屏幕显示和摄像头平台，进行专业的直播和内容创作。',
-        's2-scenario6-title': '场景 2.6：移动家庭影院',
-        's2-scenario6-desc': '该设备可轻松移动到客厅、卧室或露台，利用内置电池为家庭电影之夜或休闲观影提供4K大屏。',
-        's2-scenario7-title': '场景 2.7：移动家庭健身教练',
-        's2-scenario7-desc': '用户可以将屏幕推到瑜伽垫或跑步机前，通过清晰的大显示屏跟练健身教练，无需固定墙面安装或连接线。',
-        's2-scenario8-title': '场景 2.8：独立业务办理',
-        's2-scenario8-desc': '非常适合需要安全、互动屏幕来展示文件并在客户所在地收集数字签名的移动公证人、房地产经纪人或金融顾问。',
+        's2-scenario5-desc': '内容创作者或企业培训师可将Move-Connect Pro轻松推入任意空间，作为稳定的大屏显示和摄像平台，实现专业级的直播和内容制作。',
+        's2-scenario6-title': '场景 2.6：移动家庭影院体验',
+        's2-scenario6-desc': '凭借内置电池，设备可轻松移至客厅、卧室或阳台，为家庭电影之夜或休闲观影提供4K大屏的沉浸式体验。',
+        's2-scenario7-title': '场景 2.7：移动居家健身教练',
+        's2-scenario7-desc': '用户可将屏幕推到瑜伽垫或跑步机前，通过清晰大屏跟随健身教练进行锻炼，彻底摆脱固定安装和繁琐线缆的束缚。',
+        's2-scenario8-title': '场景 2.8：独立商务文件处理',
+        's2-scenario8-desc': '非常适合移动公证人、房地产经纪人或金融顾问，他们可以在客户现场使用安全、交互式的屏幕展示文件并快速收集电子签名。',
 
         'section3-title-old': '3. 战略定价与营收模式',
         'section3-summary-old': '目标是中档价格点，以削弱高端固定系统，同时保持高利润率。',
@@ -137,7 +138,7 @@ const translations = {
         's3-td-economy': '经济型（43" FHD）',
         's3-td-premium': '高级型（55" 4K）',
 
-        'section4-title-old': '4. 需求分析与战略',
+        'section4-title-old': '4. 需求分析与三P战略',
         's4-chart-title': '需求预测：5年复合年增长率（CAGR）预测',
         's4-comp-title': '竞争定位：“三P”战略',
         's4-p1-title': 'P1：便携性 (Portability)',
@@ -164,16 +165,14 @@ const translations = {
         's5-brand4': '三星/LG 固定显示器',
         's5-brand5': '其他品牌',
 
-        // SECTION 6 TRANSLATIONS
         'section6-title': '6. 亚马逊平台竞品分析',
         'section6-summary': '亚马逊平台上的直接竞品分析，侧重于便携式智能显示器。',
         's6-comp1-title': '竞品 1（43英寸便携屏）',
         's6-comp2-title': '竞品 2（27英寸带轮智能屏）',
         's6-comp3-title': '竞品 3（55英寸无线显示器）',
         's6-comp4-title': '竞品 4（43英寸移动智能显示器）',
-        's6-view-link': '查看亚马逊产品', // New link button text
+        's6-view-link': '查看亚马逊产品', 
 
-        // RENUMBERED SECTIONS
         'section7-title': '7. 产品评论与用户情绪（综合）',
         'section6-summary-old': '用户反馈突出便携性和易于设置是主要优点，屏幕尺寸和连接性是需要改进的领域。',
         's6-positive-title': '积极反馈总结',
@@ -195,12 +194,11 @@ function updateContent() {
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
         if (translations[currentLang][key]) {
-            // Check for elements where innerHTML is preferred (like strong tags)
+            // Updated condition to be more explicit about which keys use innerHTML for strong tags
             if (['s1-corp-data', 's1-edu-data', 's1-health-data', 's1-retail-data', 's7-conclusion-1', 's7-conclusion-2', 's6-positive-text', 's6-negative-text', 's5-insight1-text', 's5-insight2-text'].includes(key)) {
                 const text = translations[currentLang][key];
                 element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             } else {
-                // Default to textContent for titles, summaries, and button text
                 element.textContent = translations[currentLang][key];
             }
         }
