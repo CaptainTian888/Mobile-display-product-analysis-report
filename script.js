@@ -1,7 +1,7 @@
 // 1. Language Data Structure
 const translations = {
     'en': {
-        'title': 'Product Feasibility Report: Move-Connect Pro',
+        'title': 'Product market analysis report',
         'header-title': 'Market Feasibility Report: Portable Smart Screen (Move-Connect Pro)',
         'header-subtitle': 'Objective: Assess overseas market feasibility and define strategic positioning.',
         'lang-switch-en': '中文 / EN',
@@ -94,7 +94,7 @@ const translations = {
         'footer-text': 'Analysis Generated: October 2025'
     },
     'zh': {
-        'title': '产品可行性报告：Move-Connect Pro',
+        'title': '闺蜜机市场分析报告',
         'header-title': '市场可行性报告：带轮便携式智能屏 (Move-Connect Pro)',
         'header-subtitle': '目标：评估海外市场可行性并确定战略定位。',
         'lang-switch-en': 'EN / 中文',
