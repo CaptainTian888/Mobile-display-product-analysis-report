@@ -27,6 +27,15 @@ const translations = {
         's2-scenario3-desc': 'A healthcare professional moves the Move-Connect Pro into a patient\'s room for a remote consultation with a specialist, leveraging its HD camera.',
         's2-scenario4-title': 'Scenario 2.4: Interactive Retail Pop-Up Store',
         's2-scenario4-desc': 'In a bustling mall, a brand uses the Move-Connect Pro as an interactive product catalog, digital signage, and virtual assistant for engaging customers.',
+        // NEW SCENARIOS ADDED
+        's2-scenario5-title': 'Scenario 2.5: Mobile Live Streaming Studio',
+        's2-scenario5-desc': 'Influencers or corporate trainers can wheel the Move-Connect Pro into any space for a stable, large-screen display and camera platform for professional live streams and content creation.',
+        's2-scenario6-title': 'Scenario 2.6: Mobile Home Movie Watching',
+        's2-scenario6-desc': 'The device is easily moved to the living room, bedroom, or patio, providing a large, 4K display for family movie nights or casual viewing, leveraging the built-in battery.',
+        's2-scenario7-title': 'Scenario 2.7: Mobile Home Fitness Trainer',
+        's2-scenario7-desc': 'Users can wheel the screen in front of a yoga mat or treadmill to follow fitness instructors on a large, clear display without the need for fixed wall-mounting or cables.',
+        's2-scenario8-title': 'Scenario 2.8: Independent Business Handling',
+        's2-scenario8-desc': 'Perfect for mobile notaries, real estate agents, or financial advisors who need a secure, interactive screen to present documents and collect digital signatures at a client\'s location.',
 
         'section3-title-old': '3. Strategic Pricing & Revenue Model',
         'section3-summary-old': 'Targeting a mid-range price point to undercut high-end fixed systems while maintaining a strong margin.',
@@ -104,6 +113,15 @@ const translations = {
         's2-scenario3-desc': '医护人员将Move-Connect Pro带入病房，利用其高清摄像头与专家进行远程会诊。',
         's2-scenario4-title': '场景 2.4：互动式零售快闪店',
         's2-scenario4-desc': '在繁华的商场中，品牌利用Move-Connect Pro作为互动产品目录、数字标牌和虚拟助手，吸引顾客。',
+        // NEW SCENARIOS ADDED
+        's2-scenario5-title': '场景 2.5：移动直播工作室',
+        's2-scenario5-desc': '影响者或企业培训师可以将Move-Connect Pro推到任何空间，作为稳定的大屏幕显示和摄像头平台，进行专业的直播和内容创作。',
+        's2-scenario6-title': '场景 2.6：移动家庭影院',
+        's2-scenario6-desc': '该设备可轻松移动到客厅、卧室或露台，利用内置电池为家庭电影之夜或休闲观影提供4K大屏。',
+        's2-scenario7-title': '场景 2.7：移动家庭健身教练',
+        's2-scenario7-desc': '用户可以将屏幕推到瑜伽垫或跑步机前，通过清晰的大显示屏跟练健身教练，无需固定墙面安装或连接线。',
+        's2-scenario8-title': '场景 2.8：独立业务办理',
+        's2-scenario8-desc': '非常适合需要安全、互动屏幕来展示文件并在客户所在地收集数字签名的移动公证人、房地产经纪人或金融顾问。',
 
         'section3-title-old': '3. 战略定价与营收模式',
         'section3-summary-old': '目标是中档价格点，以削弱高端固定系统，同时保持高利润率。',
