@@ -232,6 +232,14 @@ main {
     border: 1px solid #e9ecef; /* Subtle border for definition */
 }
 
+/* NEW: Style for the clickable image link */
+.sales-chart-image-wrapper a {
+    cursor: zoom-in; /* Indicates the image can be enlarged */
+    display: block; 
+    width: 100%;
+    height: 100%;
+}
+
 /* Optimized Sales Chart Image layout */
 .sales-chart-image {
     width: 100%;
