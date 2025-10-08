@@ -16,29 +16,51 @@ const translations = {
         's1-segment-retail': 'Retail & Service (Digital Signage)',
         's1-retail-data': '**Data:** Global Digital Signage market CAGR of 12.1%. **VP:** Dynamic, repositionable digital customer interface.',
         's1-chart-title': 'Geographic Market Demand Potential (CAGR %)',
-        'section2-title': '2. Strategic Pricing & Revenue Model',
-        'section2-summary': 'Targeting a mid-range price point to undercut high-end fixed systems while maintaining a strong margin.',
-        's2-th-model': 'Model Tier',
-        's2-th-price': 'Retail Price Range (RRP)',
-        's2-th-margin': 'Target Gross Margin',
-        's2-td-economy': 'Economy (43" FHD)',
-        's2-td-premium': 'Premium (55" 4K)',
-        'section3-title': '3. Demand & Competitive Analysis',
-        's3-chart-title': 'Demand Forecast: 5-Year CAGR Projection',
-        's3-comp-title': 'Competitive Positioning: The "Triple P" Strategy',
-        's3-p1-title': 'P1: Portability',
-        's3-p1-text': 'Built-in wheels AND battery: True mobility, unlike competitors (Surface Hub, Jamboard) which require fixed power.',
-        's3-p2-title': 'P2: Positioning',
-        's3-p2-text': 'Mid-range price point ($1.5k-$4k) undercuts high-end systems while offering superior features to generic carts.',
-        's3-p3-title': 'P3: Platform Flexibility',
-        's3-p3-text': 'OS-agnostic (Android/Windows option) integration for seamless compatibility with all major enterprise tech stacks.',
-        's3-label-collab': 'Remote Collaboration Tools',
-        's3-label-telemed': 'Telemedicine Hardware',
-        's3-label-display': 'Portable Digital Displays',
-        's3-label-blended': 'Blended Forecast (Target)',
-        'section4-title': '4. Conclusion & Recommendations',
-        's4-conclusion-1': '**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.',
-        's4-conclusion-2': '**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary \'Connect-Pro\' subscription software to maximize recurring revenue (SaaS).',
+        
+        // NEW SECTION TRANSLATIONS
+        'section2-title-new': '2. Product Usage Scenarios & Renderings',
+        'section2-summary-new': "The Move-Connect Pro's intrinsic portability and all-in-one design unlock a multitude of dynamic use cases.",
+        's2-scenario1-title': 'Scenario 2.1: Agile Corporate Team Huddle',
+        's2-scenario1-desc': 'In a modern office, a team quickly pulls the Move-Connect Pro into an open space for a spontaneous digital whiteboard session or video conference.',
+        's2-scenario2-title': 'Scenario 2.2: Dynamic Classroom Engagement',
+        's2-scenario2-desc': 'An educator easily wheels the Move-Connect Pro from the main classroom to a smaller breakout group for interactive lessons or online tutoring sessions.',
+        's2-scenario3-title': 'Scenario 2.3: Mobile Telehealth Consultation',
+        's2-scenario3-desc': 'A healthcare professional moves the Move-Connect Pro into a patient\'s room for a remote consultation with a specialist, leveraging its HD camera.',
+        's2-scenario4-title': 'Scenario 2.4: Interactive Retail Pop-Up Store',
+        's2-scenario4-desc': 'In a bustling mall, a brand uses the Move-Connect Pro as an interactive product catalog, digital signage, and virtual assistant for engaging customers.',
+
+        'section3-title-old': '3. Strategic Pricing & Revenue Model', // Renumbered
+        'section3-summary-old': 'Targeting a mid-range price point to undercut high-end fixed systems while maintaining a strong margin.',
+        's3-th-model': 'Model Tier',
+        's3-th-price': 'Retail Price Range (RRP)',
+        's3-th-margin': 'Target Gross Margin',
+        's3-td-economy': 'Economy (43" FHD)',
+        's3-td-premium': 'Premium (55" 4K)',
+
+        'section4-title-old': '4. Demand & Competitive Analysis', // Renumbered
+        's4-chart-title': 'Demand Forecast: 5-Year CAGR Projection',
+        's4-comp-title': 'Competitive Positioning: The "Triple P" Strategy',
+        's4-p1-title': 'P1: Portability',
+        's4-p1-text': 'Built-in wheels AND battery: True mobility, unlike competitors (Surface Hub, Jamboard) which require fixed power.',
+        's4-p2-title': 'P2: Positioning',
+        's4-p2-text': 'Mid-range price point ($1.5k-$4k) undercuts high-end systems while offering superior features to generic carts.',
+        's4-p3-title': 'P3: Platform Flexibility',
+        's4-p3-text': 'OS-agnostic (Android/Windows option) integration for seamless compatibility with all major enterprise tech stacks.',
+        's4-label-collab': 'Remote Collaboration Tools',
+        's4-label-telemed': 'Telemedicine Hardware',
+        's4-label-display': 'Portable Digital Displays',
+        's4-label-blended': 'Blended Forecast (Target)',
+
+        'section5-title-old': '5. Product Review & User Sentiment (Synthesis)', // Renumbered
+        'section5-summary-old': 'User feedback highlights portability and ease of setup as key strengths, with screen size and connectivity as areas for improvement.',
+        's5-positive-title': 'Positive Feedback Synthesis',
+        's5-positive-text': 'Portability and Ease of Setup are the product\'s strongest selling points. The all-in-one nature simplifies deployment. Users praise screen quality and freedom from external power.',
+        's5-negative-title': 'Concerns & Actionable Recommendations',
+        's5-negative-text': 'Screen size (43"-55") is often cited as too small for larger teams. Connectivity issues in areas with poor Wi-Fi. **Action:** Prioritize a 65-inch Premium Model and implement advanced Wi-Fi stability software.',
+
+        'section6-title-old': '6. Conclusion & Recommendations', // Renumbered
+        's6-conclusion-1': '**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.',
+        's6-conclusion-2': '**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary \'Connect-Pro\' subscription software to maximize recurring revenue (SaaS).',
         'footer-text': 'Analysis Generated: October 2025'
     },
     'zh': {
@@ -57,42 +79,74 @@ const translations = {
         's1-segment-retail': '零售与服务（数字标牌）',
         's1-retail-data': '**数据：** 全球数字标牌市场复合年增长率为12.1%。**价值主张：** 动态、可重新定位的数字客户界面。',
         's1-chart-title': '地理市场需求潜力（复合年增长率 %）',
-        'section2-title': '2. 战略定价与营收模式',
-        'section2-summary': '目标是中档价格点，以削弱高端固定系统，同时保持高利润率。',
-        's2-th-model': '型号等级',
-        's2-th-price': '零售价范围（RRP）',
-        's2-th-margin': '目标毛利率',
-        's2-td-economy': '经济型（43" FHD）',
-        's2-td-premium': '高级型（55" 4K）',
-        'section3-title': '3. 需求与竞争分析',
-        's3-chart-title': '需求预测：5年复合年增长率（CAGR）预测',
-        's3-comp-title': '竞争定位：“三P”战略',
-        's3-p1-title': 'P1：便携性 (Portability)',
-        's3-p1-text': '内置轮子和电池：真正的移动性，与需要固定电源的竞争对手（Surface Hub、Jamboard）不同。',
-        's3-p2-title': 'P2：定位 (Positioning)',
-        's3-p2-text': '中档价格点（$1.5k-$4k），低于高端系统，同时提供优于普通手推车的特性。',
-        's3-p3-title': 'P3：平台灵活性 (Platform Flexibility)',
-        's3-p3-text': '操作系统无关（可选Android/Windows），与所有主要企业技术栈无缝兼容。',
-        's3-label-collab': '远程协作工具',
-        's3-label-telemed': '远程医疗硬件',
-        's3-label-display': '便携式数字显示器',
-        's3-label-blended': '综合预测（目标）',
-        'section4-title': '4. 结论与建议',
-        's4-conclusion-1': '**市场可行性：** 高度移动、一体化、中等价位的协作显示器存在显著市场空白，并受到远程医疗和混合办公强劲增长的支持。',
-        's4-conclusion-2': '**主要建议：** 1) 优先开发65英寸高级型号，以解决用户对屏幕尺寸的反馈。 2) 开发专有的“Connect-Pro”订阅软件以最大化经常性收入（SaaS）。',
+
+        // NEW SECTION TRANSLATIONS
+        'section2-title-new': '2. 产品使用场景与渲染图',
+        'section2-summary-new': "Move-Connect Pro 内置的便携性和一体化设计，解锁了多种动态使用场景。",
+        's2-scenario1-title': '场景 2.1：敏捷企业团队讨论',
+        's2-scenario1-desc': '在现代办公室中，团队迅速将Move-Connect Pro从充电站拉到开放协作区，进行即时数字白板会议或视频会议。',
+        's2-scenario2-title': '场景 2.2：动态课堂互动',
+        's2-scenario2-desc': '教育工作者可以轻松地将Move-Connect Pro从主教室推到小型分组讨论区，进行互动课程或在线辅导。',
+        's2-scenario3-title': '场景 2.3：移动远程医疗咨询',
+        's2-scenario3-desc': '医护人员将Move-Connect Pro带入病房，利用其高清摄像头与专家进行远程会诊。',
+        's2-scenario4-title': '场景 2.4：互动式零售快闪店',
+        's2-scenario4-desc': '在繁华的商场中，品牌利用Move-Connect Pro作为互动产品目录、数字标牌和虚拟助手，吸引顾客。',
+
+        'section3-title-old': '3. 战略定价与营收模式', // Renumbered
+        'section3-summary-old': '目标是中档价格点，以削弱高端固定系统，同时保持高利润率。',
+        's3-th-model': '型号等级',
+        's3-th-price': '零售价范围（RRP）',
+        's3-th-margin': '目标毛利率',
+        's3-td-economy': '经济型（43" FHD）',
+        's3-td-premium': '高级型（55" 4K）',
+
+        'section4-title-old': '4. 需求与竞争分析', // Renumbered
+        's4-chart-title': '需求预测：5年复合年增长率（CAGR）预测',
+        's4-comp-title': '竞争定位：“三P”战略',
+        's4-p1-title': 'P1：便携性 (Portability)',
+        's4-p1-text': '内置轮子和电池：真正的移动性，与需要固定电源的竞争对手（Surface Hub、Jamboard）不同。',
+        's4-p2-title': 'P2：定位 (Positioning)',
+        's4-p2-text': '中档价格点（$1.5k-$4k），低于高端系统，同时提供优于普通手推车的特性。',
+        's4-p3-title': 'P3：平台灵活性 (Platform Flexibility)',
+        's4-p3-text': '操作系统无关（可选Android/Windows），与所有主要企业技术栈无缝兼容。',
+        's4-label-collab': '远程协作工具',
+        's4-label-telemed': '远程医疗硬件',
+        's4-label-display': '便携式数字显示器',
+        's4-label-blended': '综合预测（目标）',
+
+        'section5-title-old': '5. 产品评论与用户情绪（综合）', // Renumbered
+        'section5-summary-old': '用户反馈突出便携性和易于设置是主要优点，屏幕尺寸和连接性是需要改进的领域。',
+        's5-positive-title': '积极反馈总结',
+        's5-positive-text': '便携性和易于设置是产品的最大卖点。一体化特性简化了部署。用户赞扬屏幕质量和无需外部电源的自由。',
+        's5-negative-title': '担忧与可行建议',
+        's5-negative-text': '屏幕尺寸（43"-55"）对于大型团队协作常被认为太小。Wi-Fi信号差的区域存在连接问题。**行动：** 优先开发65英寸高级型号，并实施先进的Wi-Fi稳定性软件。',
+
+        'section6-title-old': '6. 结论与建议', // Renumbered
+        's6-conclusion-1': '**市场可行性：** 高度移动、一体化、中等价位的协作显示器存在显著市场空白，并受到远程医疗和混合办公强劲增长的支持。',
+        's6-conclusion-2': '**主要建议：** 1) 优先开发65英寸高级型号，以解决用户对屏幕尺寸的反馈。 2) 开发专有的“Connect-Pro”订阅软件以最大化经常性收入（SaaS）。',
         'footer-text': '分析生成日期：2025年10月'
     }
 };
 
 let currentLang = 'en';
 
-// 2. Language Switching Logic
+// (The rest of the JS code for updateContent, switchLanguage, and drawCharts remains the same, 
+// as it dynamically fetches labels based on the updated translations object and will re-render charts.)
+// The drawCharts function labels will need to be updated to use the new keys for Section 4 (old Section 3)
+// For example:
+// labels: [
+//     translations[currentLang]['s4-label-collab'], // previously s3-label-collab
+//     translations[currentLang]['s4-label-telemed'], 
+//     translations[currentLang]['s4-label-display'],
+//     translations[currentLang]['s4-label-blended']
+// ],
+
 function updateContent() {
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
         if (translations[currentLang][key]) {
             // Simple check for markdown-style bolding in text
-            if (key.includes('data') || key.includes('conclusion')) {
+            if (key.includes('data') || key.includes('conclusion') || key.includes('desc') || key.includes('text')) {
                 const text = translations[currentLang][key];
                 element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             } else {
@@ -117,7 +171,6 @@ function switchLanguage() {
 
 document.getElementById('lang-switch').addEventListener('click', switchLanguage);
 
-// 3. Chart Drawing Logic (Chart.js)
 let geoMarketChartInstance = null;
 let demandForecastChartInstance = null;
 
@@ -179,10 +232,10 @@ function drawCharts() {
         type: 'line',
         data: {
             labels: [
-                translations[currentLang]['s3-label-collab'], 
-                translations[currentLang]['s3-label-telemed'], 
-                translations[currentLang]['s3-label-display'],
-                translations[currentLang]['s3-label-blended']
+                translations[currentLang]['s4-label-collab'], // Updated key
+                translations[currentLang]['s4-label-telemed'], // Updated key
+                translations[currentLang]['s4-label-display'], // Updated key
+                translations[currentLang]['s4-label-blended']  // Updated key
             ],
             datasets: [{
                 label: '5-Year CAGR',
