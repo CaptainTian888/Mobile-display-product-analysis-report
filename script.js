@@ -71,13 +71,14 @@ const translations = {
         's5-brand4': 'Samsung/LG Fixed Displays',
         's5-brand5': 'Others',
 
-        // NEW SECTION 6 TRANSLATIONS
+        // SECTION 6 TRANSLATIONS
         'section6-title': '6. Amazon Platform Competitor Analysis',
         'section6-summary': 'Direct competitors on the Amazon platform, focusing on portable smart displays.',
         's6-comp1-title': 'Competitor Product 1 (43-inch Portable Screen)',
         's6-comp2-title': 'Competitor Product 2 (27-inch Smart Screen on Wheels)',
         's6-comp3-title': 'Competitor Product 3 (55-inch Wireless Display)',
         's6-comp4-title': 'Competitor Product 4 (43-inch Mobile Smart Monitor)',
+        's6-view-link': 'View Product on Amazon', // New link button text
 
         // RENUMBERED SECTIONS
         'section7-title': '7. Product Review & User Sentiment (Synthesis)',
@@ -163,13 +164,14 @@ const translations = {
         's5-brand4': '三星/LG 固定显示器',
         's5-brand5': '其他品牌',
 
-        // NEW SECTION 6 TRANSLATIONS
+        // SECTION 6 TRANSLATIONS
         'section6-title': '6. 亚马逊平台竞品分析',
         'section6-summary': '亚马逊平台上的直接竞品分析，侧重于便携式智能显示器。',
         's6-comp1-title': '竞品 1（43英寸便携屏）',
         's6-comp2-title': '竞品 2（27英寸带轮智能屏）',
         's6-comp3-title': '竞品 3（55英寸无线显示器）',
         's6-comp4-title': '竞品 4（43英寸移动智能显示器）',
+        's6-view-link': '查看亚马逊产品', // New link button text
 
         // RENUMBERED SECTIONS
         'section7-title': '7. 产品评论与用户情绪（综合）',
@@ -193,10 +195,12 @@ function updateContent() {
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
         if (translations[currentLang][key]) {
-            if (key.includes('data') || key.includes('conclusion') || key.includes('desc') || key.includes('text') || key.includes('summary')) {
+            // Check for elements where innerHTML is preferred (like strong tags)
+            if (['s1-corp-data', 's1-edu-data', 's1-health-data', 's1-retail-data', 's7-conclusion-1', 's7-conclusion-2', 's6-positive-text', 's6-negative-text', 's5-insight1-text', 's5-insight2-text'].includes(key)) {
                 const text = translations[currentLang][key];
                 element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             } else {
+                // Default to textContent for titles, summaries, and button text
                 element.textContent = translations[currentLang][key];
             }
         }
