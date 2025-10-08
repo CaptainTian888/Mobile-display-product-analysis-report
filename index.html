@@ -3,63 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Market Feasibility Report</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- Chart.js Library -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title data-lang-key="title">Product Feasibility Report: Move-Connect Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 </head>
 <body>
 
     <header>
-        <h1>Market Feasibility Report</h1>
-        <p>Analysis of the Overseas Market Feasibility for the Portable Smart Screen with Wheels, Floor Stand, Touch Screen, Built-In Camera, and Built-In Battery.</p>
+        <h1 data-lang-key="header-title">Market Feasibility Report: Portable Smart Screen (Move-Connect Pro)</h1>
+        <button id="lang-switch" data-lang-key="lang-switch-en">中文 / EN</button>
+        <p data-lang-key="header-subtitle">Objective: Assess overseas market feasibility and define strategic positioning.</p>
     </header>
 
-    <section id="market-analysis">
-        <h2>1. Market Analysis</h2>
-        <p>Target market segments include corporate sectors, education, healthcare, and retail, with a focus on regions like North America, Europe, Asia, and the Middle East.</p>
-        <div class="chart-container">
-            <h3>Growth in Remote Work & Digital Transformation</h3>
-            <canvas id="marketGrowthChart"></canvas>
-        </div>
-    </section>
+    <main>
+        <section class="analysis-section">
+            <h2 data-lang-key="section1-title">1. Market Analysis & Strategic Segments</h2>
+            <p class="summary" data-lang-key="section1-summary">The product sits at the intersection of Collaboration Technology and Digital Signage, driven by Hybrid Work and Remote Learning trends.</p>
 
-    <section id="pricing">
-        <h2>2. Pricing Strategy</h2>
-        <p>The price of the product varies based on features and target markets.</p>
-        <div class="chart-container">
-            <h3>Pricing Breakdown for Smart Screen</h3>
-            <canvas id="pricingChart"></canvas>
-        </div>
-    </section>
+            <div class="card-container">
+                <div class="card">
+                    <h3 data-lang-key="s1-segment-corp">Corporate Sector (Hybrid Work)</h3>
+                    <p data-lang-key="s1-corp-data">**Data:** 57% of U.S. workers are in hybrid/remote environments. **VP:** The flexible huddle-room solution.</p>
+                </div>
+                <div class="card">
+                    <h3 data-lang-key="s1-segment-edu">Education Sector (Interactive Learning)</h3>
+                    <p data-lang-key="s1-edu-data">**Data:** Global EdTech market CAGR of 30% (2020-2025). **VP:** One device for all interactive learning spaces.</p>
+                </div>
+                <div class="card">
+                    <h3 data-lang-key="s1-segment-health">Healthcare Sector (Telemedicine)</h3>
+                    <p data-lang-key="s1-health-data">**Data:** Telemedicine market to reach $395.3B by 2030. **VP:** HIPAA-compliant, point-of-care mobility.</p>
+                </div>
+                <div class="card">
+                    <h3 data-lang-key="s1-segment-retail">Retail & Service (Digital Signage)</h3>
+                    <p data-lang-key="s1-retail-data">**Data:** Global Digital Signage market CAGR of 12.1%. **VP:** Dynamic, repositionable digital customer interface.</p>
+                </div>
+            </div>
 
-    <section id="demand">
-        <h2>3. Demand Analysis</h2>
-        <p>Key demand drivers include hybrid work, digital education, telemedicine, and retail customer engagement.</p>
-        <div class="chart-container">
-            <h3>Demand Forecast: Global Market</h3>
-            <canvas id="demandChart"></canvas>
-        </div>
-    </section>
+            <div class="chart-box">
+                <h3 data-lang-key="s1-chart-title">Geographic Market Demand Potential (CAGR %)</h3>
+                <canvas id="geoMarketChart"></canvas>
+            </div>
+        </section>
 
-    <section id="competition">
-        <h2>4. Competitive Analysis</h2>
-        <p>The primary competitors include Microsoft Surface Hub, Google Jamboard, and mobile interactive displays from various manufacturers.</p>
-        <div class="chart-container">
-            <h3>Market Share of Top Competitors</h3>
-            <canvas id="competitionChart"></canvas>
-        </div>
-    </section>
+        <section class="analysis-section">
+            <h2 data-lang-key="section2-title">2. Strategic Pricing & Revenue Model</h2>
+            <p class="summary" data-lang-key="section2-summary">Targeting a mid-range price point to undercut high-end fixed systems while maintaining a strong margin.</p>
 
-    <section id="product-reviews">
-        <h2>5. Product Reviews & Sentiment</h2>
-        <p>Positive reviews focus on portability, battery life, and ease of use. Negative reviews highlight connectivity issues and screen size limitations.</p>
-    </section>
+            <div class="pricing-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th data-lang-key="s2-th-model">Model Tier</th>
+                            <th data-lang-key="s2-th-price">Retail Price Range (RRP)</th>
+                            <th data-lang-key="s2-th-margin">Target Gross Margin</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-lang-key="s2-td-economy">Economy (43" FHD)</td>
+                            <td>$1,499 – $1,999</td>
+                            <td>35% - 40%</td>
+                        </tr>
+                        <tr>
+                            <td data-lang-key="s2-td-premium">Premium (55" 4K)</td>
+                            <td>$2,999 – $3,999</td>
+                            <td>45% - 50%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="analysis-section">
+            <h2 data-lang-key="section3-title">3. Demand & Competitive Analysis</h2>
+            
+            <div class="chart-box full-width">
+                <h3 data-lang-key="s3-chart-title">Demand Forecast: 5-Year CAGR Projection</h3>
+                <canvas id="demandForecastChart"></canvas>
+            </div>
+
+            <h3 data-lang-key="s3-comp-title">Competitive Positioning: The "Triple P" Strategy</h3>
+            <div class="card-container differentiation">
+                <div class="card core-advantage">
+                    <h4 data-lang-key="s3-p1-title">P1: Portability</h4>
+                    <p data-lang-key="s3-p1-text">Built-in wheels AND battery: True mobility, unlike competitors (Surface Hub, Jamboard) which require fixed power.</p>
+                </div>
+                <div class="card core-advantage">
+                    <h4 data-lang-key="s3-p2-title">P2: Positioning</h4>
+                    <p data-lang-key="s3-p2-text">Mid-range price point ($1.5k-$4k) undercuts high-end systems while offering superior features to generic carts.</p>
+                </div>
+                <div class="card core-advantage">
+                    <h4 data-lang-key="s3-p3-title">P3: Platform Flexibility</h4>
+                    <p data-lang-key="s3-p3-text">OS-agnostic (Android/Windows option) integration for seamless compatibility with all major enterprise tech stacks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="analysis-section">
+            <h2 data-lang-key="section4-title">4. Conclusion & Recommendations</h2>
+            <div class="conclusion-box">
+                <p data-lang-key="s4-conclusion-1">**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.</p>
+                <p data-lang-key="s4-conclusion-2">**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary 'Connect-Pro' subscription software to maximize recurring revenue (SaaS).</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>Market Feasibility Report © 2025</p>
+        <p data-lang-key="footer-text">Analysis Generated: October 2025</p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
