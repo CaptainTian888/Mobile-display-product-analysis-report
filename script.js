@@ -17,7 +17,6 @@ const translations = {
         's1-retail-data': '**Data:** Global Digital Signage market CAGR of 12.1%. **VP:** Dynamic, repositionable digital customer interface.',
         's1-chart-title': 'Geographic Market Demand Potential (CAGR %)',
         
-        // NEW SECTION TRANSLATIONS
         'section2-title-new': '2. Product Usage Scenarios & Renderings',
         'section2-summary-new': "The Move-Connect Pro's intrinsic portability and all-in-one design unlock a multitude of dynamic use cases.",
         's2-scenario1-title': 'Scenario 2.1: Agile Corporate Team Huddle',
@@ -29,7 +28,7 @@ const translations = {
         's2-scenario4-title': 'Scenario 2.4: Interactive Retail Pop-Up Store',
         's2-scenario4-desc': 'In a bustling mall, a brand uses the Move-Connect Pro as an interactive product catalog, digital signage, and virtual assistant for engaging customers.',
 
-        'section3-title-old': '3. Strategic Pricing & Revenue Model', // Renumbered
+        'section3-title-old': '3. Strategic Pricing & Revenue Model',
         'section3-summary-old': 'Targeting a mid-range price point to undercut high-end fixed systems while maintaining a strong margin.',
         's3-th-model': 'Model Tier',
         's3-th-price': 'Retail Price Range (RRP)',
@@ -37,9 +36,9 @@ const translations = {
         's3-td-economy': 'Economy (43" FHD)',
         's3-td-premium': 'Premium (55" 4K)',
 
-        'section4-title-old': '4. Demand & Competitive Analysis', // Renumbered
+        'section4-title-old': '4. Demand Analysis & Triple P Strategy',
         's4-chart-title': 'Demand Forecast: 5-Year CAGR Projection',
-        's4-comp-title': 'Competitive Positioning: The "Triple P" Strategy',
+        's4-comp-title': 'Core Differentiation: The "Triple P" Strategy',
         's4-p1-title': 'P1: Portability',
         's4-p1-text': 'Built-in wheels AND battery: True mobility, unlike competitors (Surface Hub, Jamboard) which require fixed power.',
         's4-p2-title': 'P2: Positioning',
@@ -50,17 +49,32 @@ const translations = {
         's4-label-telemed': 'Telemedicine Hardware',
         's4-label-display': 'Portable Digital Displays',
         's4-label-blended': 'Blended Forecast (Target)',
+        
+        // NEW SECTION 5 TRANSLATIONS
+        'section5-title-new': '5. Competitive Product Analysis',
+        'section5-summary-new': 'A data-driven view of market share and sales channel dominance among key competitors.',
+        's5-chart1-title': 'Collaboration Display Market Share by Brand (Global, 2024)',
+        's5-insight1-title': 'North American Sales Channel Layout',
+        's5-insight1-text': '**Dominant Channel:** Direct B2B Integrators (55%) and Strategic Resellers (30%). E-commerce sales are minor (15%). Focus on high-touch enterprise sales.',
+        's5-insight2-title': 'APAC Sales Channel Layout',
+        's5-insight2-text': '**Dominant Channel:** Localized E-commerce (40%) and Volume Distributors (40%). Direct enterprise sales are lower (20%). Requires strong online presence and local partnership.',
+        's5-brand1': 'Surface Hub (Microsoft)',
+        's5-brand2': 'Jamboard (Google)',
+        's5-brand3': 'SMART Tech',
+        's5-brand4': 'Samsung/LG Fixed Displays',
+        's5-brand5': 'Others',
 
-        'section5-title-old': '5. Product Review & User Sentiment (Synthesis)', // Renumbered
-        'section5-summary-old': 'User feedback highlights portability and ease of setup as key strengths, with screen size and connectivity as areas for improvement.',
-        's5-positive-title': 'Positive Feedback Synthesis',
-        's5-positive-text': 'Portability and Ease of Setup are the product\'s strongest selling points. The all-in-one nature simplifies deployment. Users praise screen quality and freedom from external power.',
-        's5-negative-title': 'Concerns & Actionable Recommendations',
-        's5-negative-text': 'Screen size (43"-55") is often cited as too small for larger teams. Connectivity issues in areas with poor Wi-Fi. **Action:** Prioritize a 65-inch Premium Model and implement advanced Wi-Fi stability software.',
+        // RENAMED SECTIONS
+        'section6-title-old': '6. Product Review & User Sentiment (Synthesis)',
+        'section6-summary-old': 'User feedback highlights portability and ease of setup as key strengths, with screen size and connectivity as areas for improvement.',
+        's6-positive-title': 'Positive Feedback Synthesis',
+        's6-positive-text': 'Portability and Ease of Setup are the product\'s strongest selling points. The all-in-one nature simplifies deployment. Users praise screen quality and freedom from external power.',
+        's6-negative-title': 'Concerns & Actionable Recommendations',
+        's6-negative-text': 'Screen size (43"-55") is often cited as too small for larger teams. Connectivity issues in areas with poor Wi-Fi. **Action:** Prioritize a 65-inch Premium Model and implement advanced Wi-Fi stability software.',
 
-        'section6-title-old': '6. Conclusion & Recommendations', // Renumbered
-        's6-conclusion-1': '**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.',
-        's6-conclusion-2': '**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary \'Connect-Pro\' subscription software to maximize recurring revenue (SaaS).',
+        'section7-title-old': '7. Conclusion & Recommendations',
+        's7-conclusion-1': '**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.',
+        's7-conclusion-2': '**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary \'Connect-Pro\' subscription software to maximize recurring revenue (SaaS).',
         'footer-text': 'Analysis Generated: October 2025'
     },
     'zh': {
@@ -80,7 +94,6 @@ const translations = {
         's1-retail-data': '**数据：** 全球数字标牌市场复合年增长率为12.1%。**价值主张：** 动态、可重新定位的数字客户界面。',
         's1-chart-title': '地理市场需求潜力（复合年增长率 %）',
 
-        // NEW SECTION TRANSLATIONS
         'section2-title-new': '2. 产品使用场景与渲染图',
         'section2-summary-new': "Move-Connect Pro 内置的便携性和一体化设计，解锁了多种动态使用场景。",
         's2-scenario1-title': '场景 2.1：敏捷企业团队讨论',
@@ -92,7 +105,7 @@ const translations = {
         's2-scenario4-title': '场景 2.4：互动式零售快闪店',
         's2-scenario4-desc': '在繁华的商场中，品牌利用Move-Connect Pro作为互动产品目录、数字标牌和虚拟助手，吸引顾客。',
 
-        'section3-title-old': '3. 战略定价与营收模式', // Renumbered
+        'section3-title-old': '3. 战略定价与营收模式',
         'section3-summary-old': '目标是中档价格点，以削弱高端固定系统，同时保持高利润率。',
         's3-th-model': '型号等级',
         's3-th-price': '零售价范围（RRP）',
@@ -100,7 +113,7 @@ const translations = {
         's3-td-economy': '经济型（43" FHD）',
         's3-td-premium': '高级型（55" 4K）',
 
-        'section4-title-old': '4. 需求与竞争分析', // Renumbered
+        'section4-title-old': '4. 需求分析与三P战略',
         's4-chart-title': '需求预测：5年复合年增长率（CAGR）预测',
         's4-comp-title': '竞争定位：“三P”战略',
         's4-p1-title': 'P1：便携性 (Portability)',
@@ -114,38 +127,42 @@ const translations = {
         's4-label-display': '便携式数字显示器',
         's4-label-blended': '综合预测（目标）',
 
-        'section5-title-old': '5. 产品评论与用户情绪（综合）', // Renumbered
-        'section5-summary-old': '用户反馈突出便携性和易于设置是主要优点，屏幕尺寸和连接性是需要改进的领域。',
-        's5-positive-title': '积极反馈总结',
-        's5-positive-text': '便携性和易于设置是产品的最大卖点。一体化特性简化了部署。用户赞扬屏幕质量和无需外部电源的自由。',
-        's5-negative-title': '担忧与可行建议',
-        's5-negative-text': '屏幕尺寸（43"-55"）对于大型团队协作常被认为太小。Wi-Fi信号差的区域存在连接问题。**行动：** 优先开发65英寸高级型号，并实施先进的Wi-Fi稳定性软件。',
+        // NEW SECTION 5 TRANSLATIONS
+        'section5-title-new': '5. 竞争产品分析',
+        'section5-summary-new': '关键竞争对手的市场份额和销售渠道主导地位的数据驱动视图。',
+        's5-chart1-title': '协作显示器市场份额（全球，2024年）',
+        's5-insight1-title': '北美销售渠道布局',
+        's5-insight1-text': '**主导渠道：** 直接B2B集成商 (55%) 和战略经销商 (30%)。电子商务销售较少 (15%)。重点是高接触企业销售。',
+        's5-insight2-title': '亚太地区销售渠道布局',
+        's5-insight2-text': '**主导渠道：** 本地化电子商务 (40%) 和批量分销商 (40%)。直接企业销售较低 (20%)。需要强大的在线影响力和本地合作关系。',
+        's5-brand1': 'Surface Hub (微软)',
+        's5-brand2': 'Jamboard (谷歌)',
+        's5-brand3': 'SMART Tech',
+        's5-brand4': '三星/LG 固定显示器',
+        's5-brand5': '其他品牌',
 
-        'section6-title-old': '6. 结论与建议', // Renumbered
-        's6-conclusion-1': '**市场可行性：** 高度移动、一体化、中等价位的协作显示器存在显著市场空白，并受到远程医疗和混合办公强劲增长的支持。',
-        's6-conclusion-2': '**主要建议：** 1) 优先开发65英寸高级型号，以解决用户对屏幕尺寸的反馈。 2) 开发专有的“Connect-Pro”订阅软件以最大化经常性收入（SaaS）。',
+        // RENAMED SECTIONS
+        'section6-title-old': '6. 产品评论与用户情绪（综合）',
+        'section6-summary-old': '用户反馈突出便携性和易于设置是主要优点，屏幕尺寸和连接性是需要改进的领域。',
+        's6-positive-title': '积极反馈总结',
+        's6-positive-text': '便携性和易于设置是产品的最大卖点。一体化特性简化了部署。用户赞扬屏幕质量和无需外部电源的自由。',
+        's6-negative-title': '担忧与可行建议',
+        's6-negative-text': '屏幕尺寸（43"-55"）对于大型团队协作常被认为太小。Wi-Fi信号差的区域存在连接问题。**行动：** 优先开发65英寸高级型号，并实施先进的Wi-Fi稳定性软件。',
+
+        'section7-title-old': '7. 结论与建议',
+        's7-conclusion-1': '**市场可行性：** 高度移动、一体化、中等价位的协作显示器存在显著市场空白，并受到远程医疗和混合办公强劲增长的支持。',
+        's7-conclusion-2': '**主要建议：** 1) 优先开发65英寸高级型号，以解决用户对屏幕尺寸的反馈。 2) 开发专有的“Connect-Pro”订阅软件以最大化经常性收入（SaaS）。',
         'footer-text': '分析生成日期：2025年10月'
     }
 };
 
 let currentLang = 'en';
 
-// (The rest of the JS code for updateContent, switchLanguage, and drawCharts remains the same, 
-// as it dynamically fetches labels based on the updated translations object and will re-render charts.)
-// The drawCharts function labels will need to be updated to use the new keys for Section 4 (old Section 3)
-// For example:
-// labels: [
-//     translations[currentLang]['s4-label-collab'], // previously s3-label-collab
-//     translations[currentLang]['s4-label-telemed'], 
-//     translations[currentLang]['s4-label-display'],
-//     translations[currentLang]['s4-label-blended']
-// ],
-
+// 2. Language Switching Logic (unchanged)
 function updateContent() {
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
         if (translations[currentLang][key]) {
-            // Simple check for markdown-style bolding in text
             if (key.includes('data') || key.includes('conclusion') || key.includes('desc') || key.includes('text')) {
                 const text = translations[currentLang][key];
                 element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
@@ -155,11 +172,9 @@ function updateContent() {
         }
     });
     
-    // Update button text explicitly
     const switchBtn = document.getElementById('lang-switch');
     switchBtn.textContent = currentLang === 'en' ? '中文 / EN' : 'EN / 中文';
 
-    // Re-draw charts with new labels
     drawCharts();
 }
 
@@ -171,31 +186,30 @@ function switchLanguage() {
 
 document.getElementById('lang-switch').addEventListener('click', switchLanguage);
 
+// 3. Chart Drawing Logic (Chart.js)
 let geoMarketChartInstance = null;
 let demandForecastChartInstance = null;
+let marketShareChartInstance = null; 
 
 function drawCharts() {
-    // Destroy previous instances to prevent memory leaks and redraw issues
-    if (geoMarketChartInstance) {
-        geoMarketChartInstance.destroy();
-    }
-    if (demandForecastChartInstance) {
-        demandForecastChartInstance.destroy();
-    }
-    
-    // --- Chart 1: Geographic Market Demand ---
+    // Destroy previous instances
+    if (geoMarketChartInstance) geoMarketChartInstance.destroy();
+    if (demandForecastChartInstance) demandForecastChartInstance.destroy();
+    if (marketShareChartInstance) marketShareChartInstance.destroy();
+
+    // --- Chart 1: Geographic Market Demand (Bar) ---
     const ctx1 = document.getElementById('geoMarketChart').getContext('2d');
     geoMarketChartInstance = new Chart(ctx1, {
         type: 'bar',
         data: {
             labels: ['North America', 'Europe', 'Asia-Pacific', 'Middle East & Africa'],
             datasets: [{
-                label: translations[currentLang]['s1-chart-title'].split(':')[0], // Use chart title as label
-                data: [13.5, 12.0, 23.0, 10.6], // CAGR Data
+                label: translations[currentLang]['s1-chart-title'].split(':')[0],
+                data: [13.5, 12.0, 23.0, 10.6],
                 backgroundColor: [
-                    'rgba(0, 123, 255, 0.7)', // Primary Blue
+                    'rgba(0, 123, 255, 0.7)', 
                     'rgba(0, 123, 255, 0.7)',
-                    'rgba(40, 167, 69, 0.7)',  // Green for highest growth
+                    'rgba(40, 167, 69, 0.7)',  
                     'rgba(0, 123, 255, 0.7)'
                 ],
                 borderColor: [
@@ -210,38 +224,28 @@ function drawCharts() {
         options: {
             responsive: true,
             scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'CAGR (%)'
-                    }
-                }
+                y: { beginAtZero: true, title: { display: true, text: 'CAGR (%)' } }
             },
-            plugins: {
-                legend: {
-                    display: false
-                }
-            }
+            plugins: { legend: { display: false } }
         }
     });
 
-    // --- Chart 2: Demand Forecast (5-Year CAGR) ---
+    // --- Chart 2: Demand Forecast (Line) ---
     const ctx2 = document.getElementById('demandForecastChart').getContext('2d');
     demandForecastChartInstance = new Chart(ctx2, {
         type: 'line',
         data: {
             labels: [
-                translations[currentLang]['s4-label-collab'], // Updated key
-                translations[currentLang]['s4-label-telemed'], // Updated key
-                translations[currentLang]['s4-label-display'], // Updated key
-                translations[currentLang]['s4-label-blended']  // Updated key
+                translations[currentLang]['s4-label-collab'],
+                translations[currentLang]['s4-label-telemed'],
+                translations[currentLang]['s4-label-display'],
+                translations[currentLang]['s4-label-blended']
             ],
             datasets: [{
                 label: '5-Year CAGR',
                 data: [15.0, 20.3, 12.0, 15.8],
                 fill: false,
-                borderColor: 'rgb(255, 193, 7)', // Warning Yellow
+                borderColor: 'rgb(255, 193, 7)',
                 backgroundColor: 'rgb(255, 193, 7)',
                 tension: 0.1,
                 pointRadius: 5,
@@ -251,28 +255,56 @@ function drawCharts() {
         options: {
             responsive: true,
             scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'CAGR (%)'
-                    }
-                }
+                y: { beginAtZero: true, title: { display: true, text: 'CAGR (%)' } }
             },
             plugins: {
+                legend: { display: false },
+                tooltip: { callbacks: { label: (context) => context.parsed.y + '%' } }
+            }
+        }
+    });
+    
+    // --- Chart 3: Market Share by Brand (Doughnut) ---
+    const ctx3 = document.getElementById('marketShareChart').getContext('2d');
+    marketShareChartInstance = new Chart(ctx3, {
+        type: 'doughnut',
+        data: {
+            labels: [
+                translations[currentLang]['s5-brand1'],
+                translations[currentLang]['s5-brand2'],
+                translations[currentLang]['s5-brand3'],
+                translations[currentLang]['s5-brand4'],
+                translations[currentLang]['s5-brand5']
+            ],
+            datasets: [{
+                data: [25, 18, 12, 30, 15], // Simulated Market Share Data
+                backgroundColor: [
+                    '#007bff',
+                    '#ffc107',
+                    '#28a745',
+                    '#dc3545',
+                    '#6c757d'
+                ],
+                hoverOffset: 10
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
                 legend: {
-                    display: false
+                    position: 'right',
+                },
+                title: {
+                    display: false,
                 },
                 tooltip: {
                     callbacks: {
                         label: function(context) {
-                            let label = context.dataset.label || '';
+                            let label = context.label || '';
                             if (label) {
                                 label += ': ';
                             }
-                            if (context.parsed.y !== null) {
-                                label += context.parsed.y + '%';
-                            }
+                            label += context.formattedValue + '%';
                             return label;
                         }
                     }
@@ -282,8 +314,7 @@ function drawCharts() {
     });
 }
 
-// Initial load: Draw charts and apply default language (English)
+// Initial load
 document.addEventListener('DOMContentLoaded', () => {
     updateContent(); 
-    // Charts are initialized in updateContent via drawCharts()
 });
