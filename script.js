@@ -27,7 +27,6 @@ const translations = {
         's2-scenario3-desc': 'A healthcare professional moves the Move-Connect Pro into a patient\'s room for a remote consultation with a specialist, leveraging its HD camera.',
         's2-scenario4-title': 'Scenario 2.4: Interactive Retail Pop-Up Store',
         's2-scenario4-desc': 'In a bustling mall, a brand uses the Move-Connect Pro as an interactive product catalog, digital signage, and virtual assistant for engaging customers.',
-        // NEW SCENARIOS ADDED
         's2-scenario5-title': 'Scenario 2.5: Mobile Live Streaming Studio',
         's2-scenario5-desc': 'Influencers or corporate trainers can wheel the Move-Connect Pro into any space for a stable, large-screen display and camera platform for professional live streams and content creation.',
         's2-scenario6-title': 'Scenario 2.6: Mobile Home Movie Watching',
@@ -59,7 +58,6 @@ const translations = {
         's4-label-display': 'Portable Digital Displays',
         's4-label-blended': 'Blended Forecast (Target)',
         
-        // NEW SECTION 5 TRANSLATIONS
         'section5-title-new': '5. Competitive Product Analysis',
         'section5-summary-new': 'A data-driven view of market share and sales channel dominance among key competitors.',
         's5-chart1-title': 'Collaboration Display Market Share by Brand (Global, 2024)',
@@ -73,15 +71,23 @@ const translations = {
         's5-brand4': 'Samsung/LG Fixed Displays',
         's5-brand5': 'Others',
 
-        // RENAMED SECTIONS
-        'section6-title-old': '6. Product Review & User Sentiment (Synthesis)',
+        // NEW SECTION 6 TRANSLATIONS
+        'section6-title': '6. Amazon Platform Competitor Analysis',
+        'section6-summary': 'Direct competitors on the Amazon platform, focusing on portable smart displays.',
+        's6-comp1-title': 'Competitor Product 1 (43-inch Portable Screen)',
+        's6-comp2-title': 'Competitor Product 2 (27-inch Smart Screen on Wheels)',
+        's6-comp3-title': 'Competitor Product 3 (55-inch Wireless Display)',
+        's6-comp4-title': 'Competitor Product 4 (43-inch Mobile Smart Monitor)',
+
+        // RENUMBERED SECTIONS
+        'section7-title': '7. Product Review & User Sentiment (Synthesis)',
         'section6-summary-old': 'User feedback highlights portability and ease of setup as key strengths, with screen size and connectivity as areas for improvement.',
         's6-positive-title': 'Positive Feedback Synthesis',
         's6-positive-text': 'Portability and Ease of Setup are the product\'s strongest selling points. The all-in-one nature simplifies deployment. Users praise screen quality and freedom from external power.',
         's6-negative-title': 'Concerns & Actionable Recommendations',
         's6-negative-text': 'Screen size (43"-55") is often cited as too small for larger teams. Connectivity issues in areas with poor Wi-Fi. **Action:** Prioritize a 65-inch Premium Model and implement advanced Wi-Fi stability software.',
 
-        'section7-title-old': '7. Conclusion & Recommendations',
+        'section8-title': '8. Conclusion & Recommendations',
         's7-conclusion-1': '**Market Viability:** The market gap for a highly mobile, all-in-one, mid-priced collaborative display is significant and supported by strong growth in Telemedicine and Hybrid Work.',
         's7-conclusion-2': '**Key Recommendations:** 1) Prioritize the development of a 65-inch Premium model to address user feedback on screen size. 2) Develop the proprietary \'Connect-Pro\' subscription software to maximize recurring revenue (SaaS).',
         'footer-text': 'Analysis Generated: October 2025'
@@ -113,7 +119,6 @@ const translations = {
         's2-scenario3-desc': '医护人员将Move-Connect Pro带入病房，利用其高清摄像头与专家进行远程会诊。',
         's2-scenario4-title': '场景 2.4：互动式零售快闪店',
         's2-scenario4-desc': '在繁华的商场中，品牌利用Move-Connect Pro作为互动产品目录、数字标牌和虚拟助手，吸引顾客。',
-        // NEW SCENARIOS ADDED
         's2-scenario5-title': '场景 2.5：移动直播工作室',
         's2-scenario5-desc': '影响者或企业培训师可以将Move-Connect Pro推到任何空间，作为稳定的大屏幕显示和摄像头平台，进行专业的直播和内容创作。',
         's2-scenario6-title': '场景 2.6：移动家庭影院',
@@ -145,7 +150,6 @@ const translations = {
         's4-label-display': '便携式数字显示器',
         's4-label-blended': '综合预测（目标）',
 
-        // NEW SECTION 5 TRANSLATIONS
         'section5-title-new': '5. 竞争产品分析',
         'section5-summary-new': '关键竞争对手的市场份额和销售渠道主导地位的数据驱动视图。',
         's5-chart1-title': '协作显示器市场份额（全球，2024年）',
@@ -159,15 +163,23 @@ const translations = {
         's5-brand4': '三星/LG 固定显示器',
         's5-brand5': '其他品牌',
 
-        // RENAMED SECTIONS
-        'section6-title-old': '6. 产品评论与用户情绪（综合）',
+        // NEW SECTION 6 TRANSLATIONS
+        'section6-title': '6. 亚马逊平台竞品分析',
+        'section6-summary': '亚马逊平台上的直接竞品分析，侧重于便携式智能显示器。',
+        's6-comp1-title': '竞品 1（43英寸便携屏）',
+        's6-comp2-title': '竞品 2（27英寸带轮智能屏）',
+        's6-comp3-title': '竞品 3（55英寸无线显示器）',
+        's6-comp4-title': '竞品 4（43英寸移动智能显示器）',
+
+        // RENUMBERED SECTIONS
+        'section7-title': '7. 产品评论与用户情绪（综合）',
         'section6-summary-old': '用户反馈突出便携性和易于设置是主要优点，屏幕尺寸和连接性是需要改进的领域。',
         's6-positive-title': '积极反馈总结',
         's6-positive-text': '便携性和易于设置是产品的最大卖点。一体化特性简化了部署。用户赞扬屏幕质量和无需外部电源的自由。',
         's6-negative-title': '担忧与可行建议',
         's6-negative-text': '屏幕尺寸（43"-55"）对于大型团队协作常被认为太小。Wi-Fi信号差的区域存在连接问题。**行动：** 优先开发65英寸高级型号，并实施先进的Wi-Fi稳定性软件。',
 
-        'section7-title-old': '7. 结论与建议',
+        'section8-title': '8. 结论与建议',
         's7-conclusion-1': '**市场可行性：** 高度移动、一体化、中等价位的协作显示器存在显著市场空白，并受到远程医疗和混合办公强劲增长的支持。',
         's7-conclusion-2': '**主要建议：** 1) 优先开发65英寸高级型号，以解决用户对屏幕尺寸的反馈。 2) 开发专有的“Connect-Pro”订阅软件以最大化经常性收入（SaaS）。',
         'footer-text': '分析生成日期：2025年10月'
@@ -181,7 +193,7 @@ function updateContent() {
     document.querySelectorAll('[data-lang-key]').forEach(element => {
         const key = element.getAttribute('data-lang-key');
         if (translations[currentLang][key]) {
-            if (key.includes('data') || key.includes('conclusion') || key.includes('desc') || key.includes('text')) {
+            if (key.includes('data') || key.includes('conclusion') || key.includes('desc') || key.includes('text') || key.includes('summary')) {
                 const text = translations[currentLang][key];
                 element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
             } else {
