@@ -5,64 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market Feasibility Report</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js Library -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
     <header>
-        <div class="language-toggle">
-            <button onclick="changeLanguage('en')">English</button>
-            <button onclick="changeLanguage('zh')">中文</button>
-        </div>
-        <h1 id="report-title">Market Feasibility Report</h1>
-        <p id="intro">Analysis of the Overseas Market Feasibility for the Portable Smart Screen with Wheels, Floor Stand, Touch Screen, Built-In Camera, and Built-In Battery.</p>
+        <h1>Market Feasibility Report</h1>
+        <p>Analysis of the Overseas Market Feasibility for the Portable Smart Screen with Wheels, Floor Stand, Touch Screen, Built-In Camera, and Built-In Battery.</p>
     </header>
 
-    <main>
-        <section id="market-analysis">
-            <h2 id="market-analysis-title">1. Market Analysis</h2>
-            <p id="market-analysis-text">Target market segments include corporate sectors, education, healthcare, and retail, with a focus on regions like North America, Europe, Asia, and the Middle East.</p>
-            <div class="chart-container">
-                <h3 id="market-growth-title">Growth in Remote Work & Digital Transformation</h3>
-                <canvas id="marketGrowthChart"></canvas>
-            </div>
-        </section>
+    <section id="market-analysis">
+        <h2>1. Market Analysis</h2>
+        <p>Target market segments include corporate sectors, education, healthcare, and retail, with a focus on regions like North America, Europe, Asia, and the Middle East.</p>
+        <div class="chart-container">
+            <h3>Growth in Remote Work & Digital Transformation</h3>
+            <canvas id="marketGrowthChart"></canvas>
+        </div>
+    </section>
 
-        <section id="pricing">
-            <h2 id="pricing-title">2. Pricing Strategy</h2>
-            <p id="pricing-text">The price of the product varies based on features and target markets.</p>
-            <div class="chart-container">
-                <h3 id="pricing-breakdown-title">Pricing Breakdown for Smart Screen</h3>
-                <canvas id="pricingChart"></canvas>
-            </div>
-        </section>
+    <section id="pricing">
+        <h2>2. Pricing Strategy</h2>
+        <p>The price of the product varies based on features and target markets.</p>
+        <div class="chart-container">
+            <h3>Pricing Breakdown for Smart Screen</h3>
+            <canvas id="pricingChart"></canvas>
+        </div>
+    </section>
 
-        <section id="demand">
-            <h2 id="demand-title">3. Demand Analysis</h2>
-            <p id="demand-text">Key demand drivers include hybrid work, digital education, telemedicine, and retail customer engagement.</p>
-            <div class="chart-container">
-                <h3 id="demand-forecast-title">Demand Forecast: Global Market</h3>
-                <canvas id="demandChart"></canvas>
-            </div>
-        </section>
+    <section id="demand">
+        <h2>3. Demand Analysis</h2>
+        <p>Key demand drivers include hybrid work, digital education, telemedicine, and retail customer engagement.</p>
+        <div class="chart-container">
+            <h3>Demand Forecast: Global Market</h3>
+            <canvas id="demandChart"></canvas>
+        </div>
+    </section>
 
-        <section id="competition">
-            <h2 id="competition-title">4. Competitive Analysis</h2>
-            <p id="competition-text">The primary competitors include Microsoft Surface Hub, Google Jamboard, and mobile interactive displays from various manufacturers.</p>
-            <div class="chart-container">
-                <h3 id="market-share-title">Market Share of Top Competitors</h3>
-                <canvas id="competitionChart"></canvas>
-            </div>
-        </section>
+    <section id="competition">
+        <h2>4. Competitive Analysis</h2>
+        <p>The primary competitors include Microsoft Surface Hub, Google Jamboard, and mobile interactive displays from various manufacturers.</p>
+        <div class="chart-container">
+            <h3>Market Share of Top Competitors</h3>
+            <canvas id="competitionChart"></canvas>
+        </div>
+    </section>
 
-        <section id="product-reviews">
-            <h2 id="product-reviews-title">5. Product Reviews & Sentiment</h2>
-            <p id="product-reviews-text">Positive reviews focus on portability, battery life, and ease of use. Negative reviews highlight connectivity issues and screen size limitations.</p>
-        </section>
-    </main>
+    <section id="product-reviews">
+        <h2>5. Product Reviews & Sentiment</h2>
+        <p>Positive reviews focus on portability, battery life, and ease of use. Negative reviews highlight connectivity issues and screen size limitations.</p>
+    </section>
 
     <footer>
-        <p id="footer-text">Market Feasibility Report © 2025</p>
+        <p>Market Feasibility Report © 2025</p>
     </footer>
 
     <script src="scripts.js"></script>
