@@ -18,7 +18,7 @@ const translations = {
         's1-retail-data': '**Data:** Global Digital Signage market CAGR of 12.1%. **VP:** Dynamic, repositionable digital customer interface.',
         's1-chart-title': 'Geographic Market Demand Potential (CAGR %)',
         
-        'section2-title-new': '2. Product Usage Scenarios & Renderings',
+        'section2-title-new': '2. Product Usage Scenarios',
         'section2-summary-new': "The Move-Connect Pro's intrinsic portability and all-in-one design unlock a multitude of dynamic use cases.",
         's2-scenario1-title': 'Scenario 2.1: Agile Corporate Team Huddle',
         's2-scenario1-desc': 'In a modern office, a team quickly pulls the Move-Connect Pro into an open space for a spontaneous digital whiteboard session or video conference.',
@@ -110,7 +110,7 @@ const translations = {
         's1-retail-data': '**数据：** 全球数字标牌市场复合年增长率为12.1%。**价值主张：** 动态、可重新定位的数字客户界面。',
         's1-chart-title': '地理市场需求潜力（复合年增长率 %）',
 
-        'section2-title-new': '2. 产品使用场景与渲染图',
+        'section2-title-new': '2. 产品使用场景',
         'section2-summary-new': "Move-Connect Pro 内置的便携性和一体化设计，解锁了多种动态使用场景。",
         's2-scenario1-title': '场景 2.1：敏捷企业团队讨论',
         's2-scenario1-desc': '在现代办公室中，团队迅速将Move-Connect Pro从充电站拉到开放协作区，进行即时数字白板会议或视频会议。',
